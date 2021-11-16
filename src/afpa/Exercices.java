@@ -1,12 +1,11 @@
 package afpa;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
+import java.util.Scanner;
 
 public class Exercices {
 
 	public static void main(String[] args) {
+		
 		System.out.println("============EXECICICE 1==============");
 		// VERSION JAVASCRIPT
 		/*
@@ -15,14 +14,19 @@ public class Exercices {
 		 */
 
 		// VERSION JAVA
-		int year = 2016;
+		System.out.println("Choisissez une année.");
+		Scanner sc = new Scanner(System.in);
+		int year = sc.nextInt();
+		System.out.println("Voici ton choix: " +year);
+		//int year = 2016;
 		if ((year % 4 == 0 && year % 100 > 0) || (year % 400 == 0)) {
 			System.out.println(year + " est bissextile");
 
 		} else {
 			System.out.println(year + " n'est pas bissextile");
 		}
-
+		sc.close();
+		
 		System.out.println("============EXECICICE 2==============");
 		// JAVASCRIPT
 		// methode moussa------------------------------
@@ -79,21 +83,7 @@ public class Exercices {
 		// console.log(semaine[4]);
 		
 		
-		ArrayList<String> semaine = new ArrayList<>(Arrays.asList("Lundi","Mar","Mercredi","Jeudi","Vendredi","Samedi","Dimanc"));
-		//semaine.add("Lundi");
-		System.out.println(semaine.size());
-		System.out.println(semaine.remove(semaine.size()-1));
-		System.out.println(semaine);
-		semaine.add("Dimanche");
-		System.out.println(semaine.indexOf("Mar"));
-		
-		semaine.set(semaine.indexOf("Mar"), "Mardi");
-		System.out.println(semaine);
-		
-		System.out.println(semaine.size());
-		
-		System.out.println(semaine.get(4));
-		
+	
 		
 		
 		

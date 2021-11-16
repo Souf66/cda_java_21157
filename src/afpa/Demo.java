@@ -61,7 +61,7 @@ public class Demo {
 	        coll.add( "qwerty" );
 
 	        // Combien y a t'il de données dans la collection ?
-	        //System.out.println( "Size == " + coll.size() );
+	        System.out.println( "Size == " + coll.size() );
 	        coll.add( "MOUSSSA" );
 	        System.out.println( "Size **** " + coll.size() );
 	        System.out.println("Pour obtenir (sans le retirer) un"

@@ -15,7 +15,7 @@ public class Demo {
 		 System.out.println(test);
 		 
 		 /* TYPE REFERENCE*/
-		 Personne afpa = new Personne();
+		 //Personne afpa = new Personne();
 		 
 		 /* LES CONSTANTES 
 		 final int AFPA = 15;
